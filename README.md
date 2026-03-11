@@ -5,7 +5,7 @@ Este repositório contém o material prático e os scripts desenvolvidos durante
 
 O foco principal do projeto é realizar uma análise exploratória e preditiva utilizando o clássico dataset do Titanic.
 
---
+
 
 ## 📋 Sobre o Projeto
 O objetivo deste projeto é explorar os dados dos passageiros do Titanic para entender quais fatores influenciaram a sobrevivência e aplicar técnicas de manipulação de dados e visualização com Python.
@@ -16,7 +16,7 @@ O objetivo deste projeto é explorar os dados dos passageiros do Titanic para en
 * Estatística Descritiva: Cálculo de métricas como média, mediana, quartis e identificação de outliers.
 * Visualização de Dados: Criação de histogramas, boxplots e gráficos de dispersão.
 
---
+
 
 
 ## 🛠️ Tecnologias Utilizadas
