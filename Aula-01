@@ -1,0 +1,60 @@
+# Minicurso: Introdução ao Machine Learning com Python (USP/ESALQ)
+# Prof. Dr. Wilson Tarantin Junior
+# Aula introdutória , apresentou  a IDE e o  básico da linguagem de prog Python
+
+# Adição
+print(5 + 10)
+
+# Subtração
+print(20 - 6)
+
+# Multiplicação
+print(30 * 3)
+
+# Divisão
+print(200 / 10)
+
+# Exponenciação
+print(5 ** 3)
+
+# Como  instalar bibliotecas - pip install nome_biblioteca
+# Como importar as bibliotecas
+import numpy as np
+import pandas as pd
+
+# As funções indicam a ação que deve executada pelo script Python
+# Portanto, as funções executam uma ação pré-estabelecida
+
+# A função np.sqrt() retorna a raiz quadrada e print() printa o resultado
+# A operação foi feita com uma função da biblioteca "numpy"
+
+print(np.sqrt(144))
+
+lista_numeros = [1,2,3,4,5]
+
+print(lista_numeros[0] + lista_numeros[3])
+
+lista_cores = ['Vermelho', 'Amarelo', 'Azul', 'Verde', 'Roxo']
+
+print(lista_cores[3] + ' e ' + lista_cores[2])
+
+# Conhecendo mais sobre o pandas
+# O pandas contém ferramentas muito úteis para trabalhar com bancos de dados
+
+numeros = pd.Series([10,20,30,40,50])
+
+print(numeros)
+
+# dtype: int - indica que são números inteiros
+# dtype: float - indica que são números com decimais
+cores = pd.Series(['Vermelho', 'Amarelo', 'Azul', 'Verde', 'Roxo'])
+
+print(cores)
+
+# dtype: object - indica que são textos
+logico = pd.Series([True, False, True, False, False])
+
+print(logico)
+
+# dtype: bool - indica que são argumentos lógicos
+
